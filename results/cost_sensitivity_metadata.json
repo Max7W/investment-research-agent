@@ -1,0 +1,30 @@
+{
+  "experiment": "cost_sensitivity",
+  "timestamp_utc": "2026-10-12T20:29:18.795898+00:00",
+  "initial_cash": 100000,
+  "tickers": [
+    "SPY",
+    "QQQ",
+    "IWM"
+  ],
+  "strategies": [
+    "buy_hold",
+    "sma200",
+    "mom60"
+  ],
+  "cost_levels_bps": [
+    0,
+    5,
+    10,
+    20
+  ],
+  "data_hashes": {
+    "SPY": "bb45919491132a509bd1a9f008d44e03b0fb747f6a8ed8431c94e5fce71e06eb",
+    "QQQ": "be6eab78eb351cf938d4608a9075050db9dd69b66e66ea322bcbaf425efa7ce7",
+    "IWM": "43fa4c561d0609a68455102f4a7582867e45f429ee1d2a5c62ce69f1c15419ec"
+  },
+  "python_version": "3.14.7",
+  "pandas_version": "2.3.3",
+  "git_commit": null,
+  "results_file": "results\\cost_sensitivity.csv"
+}

@@ -1,0 +1,33 @@
+{
+  "experiment": "continuous_walk_forward_sma",
+  "timestamp_utc": "2026-10-12T21:25:32.476914+00:00",
+  "ticker": "SPY",
+  "data_file": "data\\raw\\SPY_2010_2025.csv",
+  "data_sha256": "bb45919491132a509bd1a9f008d44e03b0fb747f6a8ed8431c94e5fce71e06eb",
+  "initial_cash": 100000,
+  "cost_bps": 5.0,
+  "candidate_windows": [
+    50,
+    100,
+    200
+  ],
+  "evaluation_years": [
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "selection_metric": "sharpe",
+  "selection_method": "expanding_window",
+  "execution": "previous_close_signal_next_open",
+  "annualization_days": 252,
+  "python_version": "3.14.7",
+  "pandas_version": "2.3.3",
+  "git_commit": "8c1220f59fbe2ebd13984e382497bde277b144ed",
+  "results": [
+    "results/walk_forward.csv",
+    "results/walk_forward_equity.csv",
+    "results/walk_forward_benchmark.csv",
+    "results/walk_forward_comparison.csv"
+  ]
+}

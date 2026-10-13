@@ -1,0 +1,9 @@
+
+# Investment Research Agent
+# Phase 0 verified environment
+# Python 3.14.7
+
+numpy==2.5.4
+pandas==2.3.3
+yfinance==1.7.0
+pytest==9.1.1

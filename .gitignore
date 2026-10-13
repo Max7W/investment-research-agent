@@ -1,0 +1,40 @@
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Pytest and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+.venv/
+.venv_repro/
+*.py[cod]
+.pytest_cache/
+
+# Public repository: do not redistribute raw market data
+/data/raw/*.csv
+/data/raw/snapshot_metadata.json
+
+# Python environments and caches
+.venv/
+.venv_repro/
+__pycache__/
+.pytest_cache/
+*.pyc
